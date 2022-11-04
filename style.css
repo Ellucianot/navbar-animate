@@ -1,0 +1,37 @@
+
+body{
+background: rgb(0, 0, 0);
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+nav{
+position: absolute;
+width: 100%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.box{
+text-decoration: none;
+color: rgb(255, 255, 255);
+background: transparent;
+padding: 15px 40px;
+border-radius: 5px;
+font-weight: bold;
+text-transform: uppercase;
+transition: all 0.3s ease-in-out;
+border: 1px solid rgb(0, 255, 149);
+margin: 0 10px;
+
+
+}
+
+.box:hover{
+border: 0;
+box-shadow: 0 0 3px #06940d, 0 0 7px #06940d, 0 0 20px #06940d;
+
+
+}
